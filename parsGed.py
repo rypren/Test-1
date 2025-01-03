@@ -12,6 +12,7 @@ gedcom_parser.parse_file(gedcom_file)
 root_elements = gedcom_parser.get_element_list()
 
 # Iterate through root elements
+count = 0
 for element in root_elements:
     if isinstance(element, IndividualElement):
         name = element.get_name()
@@ -21,3 +22,6 @@ for element in root_elements:
         print(f"Name: {name}")
         print(f"Birth: {birth_data}")
         print(f"Death: {death_data}")
+
+        count = count + 1
+print("Number of individuals: ", count)
