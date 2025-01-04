@@ -1,6 +1,8 @@
 from gedcom.element.individual import IndividualElement
 from gedcom.parser import Parser
 
+import gedcom.tags
+
 # Path to your GEDCOM file
 gedcom_file = "rypren Släktträd 240310 - may-oct.ged"
 
@@ -25,3 +27,11 @@ for element in root_elements:
 
         count = count + 1
 print("Number of individuals: ", count)
+
+print("======================================================")
+
+for element in gedcom_parser.get_root_child_elements():
+    if element.get_tag() == gedcom.tags.GEDCOM_TAG_INDIVIDUAL:
+        for child in element.get_child_elements():
+            if child.get_tag() == gedcom.tags.GEDCOM_TAG_NAME:
+                print(child.get_value())
