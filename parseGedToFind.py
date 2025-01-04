@@ -15,6 +15,9 @@ gedcom_parser.parse_file(file_path + file_name)
 
 root_child_elements = gedcom_parser.get_root_child_elements()
 
+surname = input("Enter surname to search: ",)
+
+found = False
 # Iterate through all root child elements
 for element in root_child_elements:
 
@@ -22,10 +25,15 @@ for element in root_child_elements:
     if isinstance(element, IndividualElement):
 
         # Get all individuals whose surname matches "Doe"
-        if element.surname_match('Eriksson'):
+        if element.surname_match(surname):
+
+            found = True
 
             # Unpack the name tuple
             (first, last) = element.get_name()
 
             # Print the first and last name of the found individual
             print(first + " " + last)
+
+if found != True:
+    print("Surname not found!")
