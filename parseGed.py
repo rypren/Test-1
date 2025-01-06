@@ -23,7 +23,10 @@ for element in root_elements:
 
         print(f"Name: {name}")
         print(f"Birth: {birth_data}")
-        print(f"Death: {death_data}")
+        if death_data[1] != "":
+            print(f"Death: {death_data}")
+        else:
+            print("Death: Still alive")
 
         count = count + 1
 print("Number of individuals: ", count)
