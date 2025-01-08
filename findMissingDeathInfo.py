@@ -4,7 +4,7 @@ from gedcom.parser import Parser
 import gedcom.tags
 
 # Path to your GEDCOM file
-gedcom_file = "rypren Släktträd 240310 - may-oct.ged"
+gedcom_file = "rypren Släktträd 250107.ged"
 
 # Initialize the parser
 gedcom_parser = Parser()
