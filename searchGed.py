@@ -83,10 +83,14 @@ for parent in parents:
 
 # Print found person's parents from their first parent.
 print("\nGrandparents:")
-grandparents = parser.get_parents(parents[0])
-for grandparent in grandparents:
-    given_name, surname = grandparent.get_name()
-    print(given_name, surname)
+for parent in parents:
+    grandparents = parser.get_parents(parent)
+    for grandparent in grandparents:
+        given_name, surname = grandparent.get_name()
+        print(given_name, surname)
+
+if len(parents) > 0:
+    print("###########", len(parents))
 
 # Find path to grandparent.  This is not new.
 print("\nPath to ancestor:")
