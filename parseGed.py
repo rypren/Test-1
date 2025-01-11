@@ -38,3 +38,8 @@ for element in gedcom_parser.get_root_child_elements():
         for child in element.get_child_elements():
             if child.get_tag() == gedcom.tags.GEDCOM_TAG_NAME:
                 print(child.get_value())
+    elif element.get_tag() == gedcom.tags.GEDCOM_TAG_FAMILY:
+        members = gedcom_parser.get_family_members(element)
+        print("FAMILY ---")
+        for member in members:
+            print("FAMILY: ------", member.get_name())
