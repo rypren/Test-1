@@ -53,6 +53,27 @@ def getParents(person):
     else:
         return None
 
+no_of_individuals = 1
+
+def traverse(person):
+    global no_of_individuals
+    given_name, surname = person.get_name()
+    print(no_of_individuals, given_name, surname)
+    parents = parser.get_parents(person)
+    if len(parents) == 0:
+        return
+    else:
+        no_of_individuals += 1
+        for parent in parents:
+            traverse(parent)
+        no_of_individuals -= 1
+
+traverse(individual)
+
+print(no_of_individuals)
+
+exit()
+
 parents = getParents(individual)
 
 # Print found person's parents.
