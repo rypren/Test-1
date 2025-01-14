@@ -40,27 +40,27 @@ for child in parser.get_children(individual):
     print("  ", given_name, surname)
 print(" ")
 
-no_of_individuals = 1
+level = 1
 
 def traverse(person):
-    global no_of_individuals
+    global level
     given_name, surname = person.get_name()
     birth_date, birth_place, birth_sources = person.get_birth_data()
     death_date, death_place, death_sources = person.get_death_data()
-    spaces = "-" * no_of_individuals
-    print(str(no_of_individuals) + " " + spaces + " " + given_name + " " + surname + " (" + birth_date + " - " + death_date + ")")
+    hyphens = "-" * level
+    print(f"{level} {hyphens} {given_name} {surname} ({birth_date} - {death_date})")
     parents = parser.get_parents(person)
     if len(parents) == 0:
         return
     else:
-        no_of_individuals += 1
+        level += 1
         for parent in parents:
             traverse(parent)
-        no_of_individuals -= 1
+        level -= 1
 
 traverse(individual)
 
 # Make sure we are back to initial level
-print(no_of_individuals)
+print(level)
 
 exit()
