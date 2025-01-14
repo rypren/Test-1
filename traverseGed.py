@@ -38,27 +38,15 @@ print("Children:")
 for child in parser.get_children(individual):
     given_name, surname = child.get_name()
     print("  ", given_name, surname)
-
-def listParents(parents, indent):
-    print("Parents:")
-    for parent in parents:
-        given_name, surname = parent.get_name()
-        print(indent, given_name, surname)
-
-def getParents(person):
-    parents = parser.get_parents(person)
-    if len(parents) > 0:
-        listParents(parents, "1 ")
-        return parents
-    else:
-        return None
+print(" ")
 
 no_of_individuals = 1
 
 def traverse(person):
     global no_of_individuals
     given_name, surname = person.get_name()
-    print(no_of_individuals, given_name, surname)
+    spaces = "-" * no_of_individuals
+    print(no_of_individuals, spaces, given_name, surname)
     parents = parser.get_parents(person)
     if len(parents) == 0:
         return
@@ -73,24 +61,3 @@ traverse(individual)
 print(no_of_individuals)
 
 exit()
-
-parents = getParents(individual)
-
-# Print found person's parents.
-# parents = parser.get_parents(individual)
-# if len(parents) > 0:
-#     listParents(parents, "1 ")
-
-# Print found person's grandparents
-if len(parents) > 0:
-    for parent in parents:
-        grandparents = parser.get_parents(parent)
-        listParents(grandparents, "2 ")
-        if len(grandparents) > 0:
-            for grandparent in grandparents:
-                grand_grandparents = parser.get_parents(grandparent)
-                listParents(grand_grandparents, "3 ")
-                if len(grand_grandparents) > 0:
-                    for grand_grandparent in grand_grandparents:
-                        grand_grand_grandparents = parser.get_parents(grand_grandparent)
-                        listParents(grand_grand_grandparents, "4 ")
