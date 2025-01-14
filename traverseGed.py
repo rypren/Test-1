@@ -48,7 +48,7 @@ def traverse(person):
     birth_date, birth_place, birth_sources = person.get_birth_data()
     death_date, death_place, death_sources = person.get_death_data()
     spaces = "-" * no_of_individuals
-    print(no_of_individuals, spaces, given_name, surname, " (", birth_date, "-", death_date, ")")
+    print(str(no_of_individuals) + " " + spaces + " " + given_name + " " + surname + " (" + birth_date + " - " + death_date + ")")
     parents = parser.get_parents(person)
     if len(parents) == 0:
         return
