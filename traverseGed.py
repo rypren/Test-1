@@ -33,8 +33,14 @@ given_name, last_name, suffix, sources = individual.get_name_data()
 print("Selected person:")
 print("  ", given_name, last_name, suffix)
 
+# Print found person's spouse(s)
+print("\nSpouse(s):")
+for spouse in parser.get_spouses(individual):
+    given_name, last_name, suffix, sources = spouse.get_name_data()
+    print("  ",given_name, last_name, suffix)
+
 # Print found person's children.
-print("Children:")
+print("\nChildren:")
 for child in parser.get_children(individual):
     given_name, surname = child.get_name()
     print("  ", given_name, surname)
