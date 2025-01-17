@@ -1,61 +1,67 @@
 Name: ('Kurt Eskil', 'Warenius')
-Birth:  27 Febr 1930   Annedal, Göteborg, Göteborg och Bohus, Sverige
+Birth:  27 Febr 1930   Annedal, Gï¿½teborg, Gï¿½teborg och Bohus, Sverige
 ok Death:  11 Mar 2021   
 Name: ('Christina', 'Andersdotter')
-Birth:  13 Okt 1851   Båssnäs, Västra Fågelvik, Värmland, Sverige
+Birth:  13 Okt 1851   Bï¿½ssnï¿½s, Vï¿½stra Fï¿½gelvik, Vï¿½rmland, Sverige
 Death:     USA
 Name: ('Maria', 'Olsdotter')
-Birth:  31 Mar 1843   Båssnäs, Västra Fågelvik, Värmland, Sverige
+Birth:  31 Mar 1843   Bï¿½ssnï¿½s, Vï¿½stra Fï¿½gelvik, Vï¿½rmland, Sverige
 Death:     Norge
 Name: ('Elsie Irene', 'Emanuelsson')
 Birth:  25 Nov 1927   Chicago, Cook, Illinois, USA
 ok Death:  28 Maj 1998   
 Name: ('Johannes', 'Johannesson')
-Birth:  14 Jan 1849   Nössemark, Älvsborg, Sverige
+Birth:  14 Jan 1849   Nï¿½ssemark, ï¿½lvsborg, Sverige
 Death:     Norge
 Name: ('Dagny Alette', 'Henriksson')
-Birth:  25 Jan 1890   Nygård, Håboda, Torrskog, Älvsborg, Sverige
+Birth:  25 Jan 1890   Nygï¿½rd, Hï¿½boda, Torrskog, ï¿½lvsborg, Sverige
 Death:     USA
 Name: ('Jan Peter', 'Johansson')
-Birth:  30 Jan 1847   Sund, Nössemark, Älvsborg, Sverige
+Birth:  30 Jan 1847   Sund, Nï¿½ssemark, ï¿½lvsborg, Sverige
 Death:     Norge
 Name: ('Andreas', 'Johansson')
-Birth:  26 Maj 1851   Valsebo, Nössemark, Älvsborg, Sverige
+Birth:  26 Maj 1851   Valsebo, Nï¿½ssemark, ï¿½lvsborg, Sverige
 Death:     Norge
 Name: ('Fredrika', 'Johannesdotter')
-Birth:  4 Okt 1866   Flolanda, Torrskog, Älvsborg, Sverige
+Birth:  4 Okt 1866   Flolanda, Torrskog, ï¿½lvsborg, Sverige
 Death:     Norge
 Name: ('Emilia', 'Johannesdotter')
-Birth:  29 Sep 1871   Flolanda, Torrskog, Älvsborg, Sverige
+Birth:  29 Sep 1871   Flolanda, Torrskog, ï¿½lvsborg, Sverige
 Death:     USA
 Name: ('Ferdinand', 'Johannesson')
-Birth:  3 Apr 1874   Flolanda, Torrskog, Älvsborg, Sverige
+Birth:  3 Apr 1874   Flolanda, Torrskog, ï¿½lvsborg, Sverige
 Death:     USA
 Name: ('Oskar', 'Emanuelsson')
-Birth:  1 Dec 1865    Sund, Nössemark, Älvsborg, Sverige
+Birth:  1 Dec 1865    Sund, Nï¿½ssemark, ï¿½lvsborg, Sverige
 Death:     USA
 Name: ('Amanda Elisabet', 'Petersdotter')
-Birth:  14 Okt 1902    Sund, Nössemark, Älvsborg, Sverige
+Birth:  14 Okt 1902    Sund, Nï¿½ssemark, ï¿½lvsborg, Sverige
 Death:     Norge
 Name: ('August', 'Olofsson')
-Birth:  13 Maj 1871   Sund, Nössemark, Älvsborg, Sverige
+Birth:  13 Maj 1871   Sund, Nï¿½ssemark, ï¿½lvsborg, Sverige
 Death:     Norge
 Name: ('Maria Greta', 'Johannesdotter')
-Birth:  27 Mar 1852    Sund, Nössemark, Älvsborg, Sverige
+Birth:  27 Mar 1852    Sund, Nï¿½ssemark, ï¿½lvsborg, Sverige
 Death:     Norge
 Name: ('Matilda', 'Johannesdotter')
-Birth:  6 Mar 1856    Sund, Nössemark, Älvsborg, Sverige
+Birth:  6 Mar 1856    Sund, Nï¿½ssemark, ï¿½lvsborg, Sverige
 Death:     Norge
 Name: ('Alfrida', 'Johannesdotter')
-Birth:  1 Sep 1875   Nössemark, Älvsborg, Sverige
+Birth:  1 Sep 1875   Nï¿½ssemark, ï¿½lvsborg, Sverige
 Death:     Norge
 Name: ('Ingrid Britta', 'Hansdotter')
-Birth:  30 Apr 1828   Norra Kölviken, Nössemark, Älvsborg, Sverige
+Birth:  30 Apr 1828   Norra Kï¿½lviken, Nï¿½ssemark, ï¿½lvsborg, Sverige
 Death:  1909   
 Name: ('Albina', 'Hansdotter')
-Birth:  17 Sep 1855   Södra Kölviken, Nössemark, Älvsborg, Sverige
+Birth:  17 Sep 1855   Sï¿½dra Kï¿½lviken, Nï¿½ssemark, ï¿½lvsborg, Sverige
 Death:     USA
 Name: ('Kenneth', 'Anderson')
 Birth:  1934   Hartford, Connecticut, USA
 Death:     Texas, USA
-Number of individuals:  20
+Name: ('Olof', 'Okï¿½nd')
+Birth:     
+Death:     
+Name: ('Per', 'Okï¿½nd')
+Birth:     
+Death:     
+Number of individuals:  22
