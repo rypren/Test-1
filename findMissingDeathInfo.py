@@ -24,7 +24,7 @@ for element in root_elements:
         (bdate, bplace, bextra) = birth_data
         (ddate, dplace, dextra) = death_data
 
-        if (death_data[0] == "" and death_data[1] != "") or (death_data[0] != "" and death_data[1] == ""):
+        if (death_data[0] == "" and death_data[1] != "") or (death_data[0] != "" and death_data[1] == "") or (name[1] == "Okänd"):
             print(f"Name: {name}")
             print("Birth: ", bdate, " ", bplace)
             print("Death: ", ddate, " ", dplace)
