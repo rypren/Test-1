@@ -5,7 +5,7 @@ from gedcom.parser import Parser
 file_path = ''
 
 # Name of your ".ged" file
-file_name = 'rypren Släktträd 240310 - may-oct.ged'
+file_name = 'rypren Släktträd 250131.ged'
 
 # Initialize the parser
 gedcom_parser = Parser()

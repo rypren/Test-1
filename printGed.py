@@ -1,5 +1,5 @@
 # the name of the file
-filename = "rypren Släktträd 240310 - may-oct.ged"
+filename = "rypren Släktträd 250131.ged"
 
 fh = open(filename, 'r')
 found = False
