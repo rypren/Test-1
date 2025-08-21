@@ -32,8 +32,10 @@ for element in root_child_elements:
             # Unpack the name tuple
             (first, last) = element.get_name()
 
-            # Print the first and last name of the found individual
-            print(first + " " + last)
+            if last == surname:
+
+                # Print the first and last name of the found individual
+                print(first + " " + last)
 
 if found != True:
     print("Surname not found!")
