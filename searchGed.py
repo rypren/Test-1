@@ -17,7 +17,7 @@ parser.parse_file(file_path + file_name)
 
 # Use criteria to find person.  Only one field is required.  The search returns the first match.
 # criteria = "given_name=[first name]:surname=[last name]:birth=[birth year]:death=[death year]"
-criteria = "given_name=Peter:birth=1957"
+criteria = "given_name=Selma Elovina:birth=1886"
 individual = parser.find_person(criteria)
 
 if individual == "":
@@ -38,7 +38,7 @@ for source in sources:
 date, place, sources = individual.get_birth_data()
 print("\nBorn", date, "in", place)
 
-# Print found person's date and place of birth
+# Print found person's date and place of death
 date, place, sources = individual.get_death_data()
 print("Died", date, "in", place)
 

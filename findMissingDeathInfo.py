@@ -14,7 +14,8 @@ gedcom_parser.parse_file(gedcom_file)
 root_elements = gedcom_parser.get_element_list()
 
 # Iterate through root elements
-count = 0
+bcount = 0
+dcount = 0
 for element in root_elements:
     if isinstance(element, IndividualElement):
         name = element.get_name()
@@ -24,10 +25,17 @@ for element in root_elements:
         (bdate, bplace, bextra) = birth_data
         (ddate, dplace, dextra) = death_data
 
-        if (death_data[0] == "" and death_data[1] != "") or (death_data[0] != "" and death_data[1] == "") or (name[1] == "Okänd"):
-            print(f"Name: {name}")
+        if (birth_data[0] == "" and birth_data[1] != "") or (birth_data[0] != "" and birth_data[1] == "") or (birth_data[0] == "" and birth_data[1] == "") or (name[1] == "Okänd"):
+            print(f"B-Name: {name}")
             print("Birth: ", bdate, " ", bplace)
             print("Death: ", ddate, " ", dplace)
-            count = count + 1
+            bcount = bcount + 1
 
-print("Number of individuals: ", count)
+        if (death_data[0] == "" and death_data[1] != "") or (death_data[0] != "" and death_data[1] == "") or (name[1] == "Okänd"):
+            print(f"D-Name: {name}")
+            print("Birth: ", bdate, " ", bplace)
+            print("Death: ", ddate, " ", dplace)
+            dcount = dcount + 1
+
+print("Number of individuals with missing birth info: ", bcount)
+print("Number of individuals with missing death info: ", dcount)
