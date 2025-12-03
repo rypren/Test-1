@@ -9,7 +9,7 @@ import gedcom.tags
 file_path = ''
 
 # Name of your ".ged" file
-file_name = 'rypren Släktträd 250131.ged'
+file_name = 'rypren Släktträd 251202 - may-oct.ged'
 
 # Initialize the parser
 parser = Parser()
