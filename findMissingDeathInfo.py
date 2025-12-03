@@ -4,13 +4,13 @@ from gedcom.parser import Parser
 import gedcom.tags
 
 # Path to your GEDCOM file
-gedcom_file = "rypren Släktträd 250131.ged"
+gedcom_file = "rypren Släktträd 251202 - may-oct.ged"
 
 # Initialize the parser
 gedcom_parser = Parser()
 gedcom_parser.parse_file(gedcom_file)
 
-# Get the root element
+# Get the root elements
 root_elements = gedcom_parser.get_element_list()
 
 # Iterate through root elements
